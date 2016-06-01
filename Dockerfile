@@ -3,9 +3,9 @@ FROM ubuntu:14.04
 MAINTAINER andrew.replogle@gmail.com
 
 ARG NODE_VERSION=0.10 
-ARG REMOTE_REPO=https://github.com/rhiokim/haroopad.git
-ARG LOCAL_REPO=/opt/haroopad
-ARG MY_USER=haroopad
+ENV REMOTE_REPO=https://github.com/rhiokim/haroopad.git
+ENV LOCAL_REPO=/opt/haroopad
+ENV MY_USER=haroopad
 ENV MY_BRANCH=master
 
 RUN apt-get clean && \
