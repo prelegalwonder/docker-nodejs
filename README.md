@@ -21,4 +21,4 @@ docker run -d \
 ```
 <br>
 Check that it didn't exit with an error `docker ps -a`<br>
-Check logs `docker logs -f mydorado`<br>
+Check logs `docker logs -f haroopad`<br>
